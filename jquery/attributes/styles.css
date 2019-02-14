@@ -1,0 +1,15 @@
+.img_wrap_main > img{
+	width: 100%;
+
+}
+.img_wrap{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.img_short{
+	width: 70px;
+	height: 70px;
+ 	margin-right: 10px;
+ 
+}

@@ -1,0 +1,20 @@
+#big{
+    width: 400px; 
+    height: 400px; 
+    border-color: black; 
+    border-width: 2px; 
+    border-style: solid; 
+}
+
+#little{
+    width: 100px; 
+    height: 100px; 
+    background-color: blue; 
+    border-width: 2px; 
+    border-style: solid; 
+}
+
+button{
+    background-color: red; 
+    margin-bottom: 10px; 
+}

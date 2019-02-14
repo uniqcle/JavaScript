@@ -1,0 +1,30 @@
+{
+    "people": [
+        {
+            "name": "Adam", 
+            "age": 33
+        }, 
+        {
+            "name": "Marfa", 
+            "age": 25
+        }, 
+        {
+            "name": "Viktor", 
+            "age": 55
+        }
+    ], 
+    "cars": [
+        {
+            "name": "Audi", 
+            "maxspeed": 350
+        }, 
+        {
+            "name": "BMW",
+            "maxspeed": 240
+        }, 
+        {
+            "name": "Mercedes",
+            "maxspeed": 280
+        }
+    ]
+}
