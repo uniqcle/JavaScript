@@ -1,0 +1,16 @@
+.menu-item{
+	 
+	display: inline-block;
+	color: #C6C6C6;
+	position: relative;
+	cursor: help;  
+}
+
+.sub-menu{
+	color: white;
+	min-height: 10%;
+	width: 250px;
+	background: #00B1C8;
+	position: absolute;
+	padding: 5px;
+}
