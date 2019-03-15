@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Generator</title>
+	
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel= "stylesheet" href = "style.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+				
+
+				<div class = "block">
+					<!-- Top Left --> 
+					<p>
+						<input type = "range" id = "rangeTopLeft" min = "0" max = "100" value = "60" oninput = "changeRange()">
+						<input type = "text"  id = "textTopLeft" >
+					</p>
+
+					<!-- Top Right --> 
+					<p>
+						<input type = "range" id = "rangeTopRight" min = "0" max = "100" value = "30" oninput = "changeRange()">
+						<input type = "text"  id = "textTopRight" >
+					</p>
+
+					<!-- Bottom Left -->
+					<p>
+						<input type = "range" id = "rangeBottomLeft" min = "0" max = "100" value = "70" oninput = "changeRange()">
+						<input type = "text"  id = "textBottomLeft" >					
+					</p> 
+
+					<!-- Bottom Right --> 
+					<p>
+						<input type = "range" id = "rangeBottomRight" min = "0" max = "100" value = "10" oninput = "changeRange()">
+						<input type = "text"  id = "textBottomRight" >					
+					</p>
+					
+					<!-- Result Block --> 
+					<div id = "result">
+						
+					</div>
+				</div>
+			
+		</div>
+	</div>
+
+
+<script src = "script.js"></script>	
+</body>
+</html>
